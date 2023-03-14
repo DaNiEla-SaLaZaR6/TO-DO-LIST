@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body,html{
+    height: 100vh;
+    width: 100vw;
+}
+.contenedor_principal{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2JROOHNYGVEOPDHZWWJ565NN54.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_segundario{
+    height: 60%;
+    width: 60%;
+    border: solid 5px beige;
+    background-color: rgba(184, 135, 11, 0.348);
+}
+.contenedor_ima{
+    height: 25%;
+    width: 97%;
+    border: solid 1px beige;
+    margin: 12px;
+    background-image: url(https://assets-global.website-files.com/619cef5c40cb8925cd33ece3/621e3d842f5305af9170e4eb_619cef5c40cb8963c133f5fc_6076f40a7bc433d96f4663f4_template-vignette-TO-DO-LIST-1200x900.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px 2px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+
+}
+.contenedor_navegacion{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 50%;
+    width: 80%;
+    background-color:rgba(184, 135, 11, 0.63);
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    border: solid 1px aliceblue;
+ 
+}
+button{
+    height: 50%;
+    width: 5%;
+    margin: 8px;
+    border: solid 1px aliceblue;
+    background-color: rgba(184, 135, 11, 0.63);
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: rgba(255, 255, 0, 0.439);
+    border: solid 1px aliceblue;
+}
+.contenedor_resultado{
+    height: 40%;
+    width: 100%;
+    gap: 10px;
+}
+
+.tareas{
+    height: 50px;
+    width: 50%;
+    background-color:rgba(184, 135, 11, 0.583);
+    margin: auto;
+    position: relative;
+    color: aliceblue;
+    gap: 5px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tareas img{
+    position: absolute;
+    right: 0px;
+
+
+}
+.eliminar{
+    height: 80%;
+    width: 6%;
+    position: absolute;
+    right: 0px;
+    background-image: url(./bin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1px;
+    color: black;
+}
